@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+} */
+
+.header-class{
+  display: flex;
+  /* margin: 50px; */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.nav-class a{
+  margin-left: 12px;
+}
+.logout-btn{
+  margin-left: 12px;
+}
+
+.header-class a{
+  text-decoration: none;
+  color: #000000;
+  font-size: large;
+}
+
+.myblog-class{
+  font-weight: bold;
+}
+
+.img-class{
+  width: 30%;
+
+}
+
+.blog-content{
+  /* width: 50%; */
+  display: flex;
+  margin-left: 100px;
+  /* text-align: center; */
+  justify-content: center;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.blog-description{
+  margin-left: 20px;
+}
+
+.spanClass{
+  color: blueviolet;
+  font-size: large;
+  font-weight: bold;
+}
+.form-class{
+  text-align: center;
+}
+.input-class{
+  padding: 3px;
+  width: 180px;
+  height: 20px;
+text-align: center;
+}
+
+.login-btn{
+  height: 30px;
+  width: 40px;
+  /* background-color: blueviolet; */
+}
+
+.bg-image{
+  background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  resize: vertical;
+  height: 100vh;
+  display: flex;
+  align-items:center ;
+  /* background-color: rgb(100, 99, 99); */
+}
+.form-heading{
+  color: #ffffff;
+  font-weight: bold;
+
+}
+.btn-register{
+  text-align: center;
+  justify-content: center;
+}
+
+.newblog{
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 100px;
+  
+}
+
+.btn-div{
+  justify-content: space-between;
+}
+
+.register-btn{
+  margin-left: 20px;
+}
+.blog-div-class{
+  align-items: center;
+  border: 2px solid #808080;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px #808080;
+}
+.blog-card-class{
+  display: flex;
+  text-align: center;
+}
+
+.blogSummary{
+  height: 90px;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+.card-body{
+  word-wrap: break-word;
+}
